@@ -1,0 +1,114 @@
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #2D363C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .nav{
+        width: 80%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav1{
+            width: 20%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+
+            .nav-opt{
+                width: 60%;
+                height: 250px;
+
+                h1 a{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: white;
+                }
+
+                p a{ 
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: rgba(255, 255, 255, 0.5);
+
+                    &:hover{
+                        margin-left: 10px;
+                    }
+                }
+
+                a{
+                    text-decoration: none;
+                }
+            }
+
+
+        }
+
+        .nav2{
+            width: 20%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+
+            .nav2-opt{
+                width: 60%;
+                height: 250px;
+
+                h1 a{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: white;
+                }
+
+                p a{ 
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: rgba(255, 255, 255, 0.5);
+
+                    &:hover{
+                        margin-left: 10px;
+                    }
+                }
+
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .nav3{
+            width: 20%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+
+            .nav3-opt{
+                width: 95%;
+                height: 200px;
+
+                h1 a{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: white;
+                }
+
+                p a{ 
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: rgba(255, 255, 255, 0.5);
+
+                    &:hover{
+                        margin-left: 10px;
+                    }
+                }
+
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

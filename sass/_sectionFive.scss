@@ -1,0 +1,111 @@
+.five{
+    width: 100%;
+    height: 420px;
+    position: relative;
+
+    .fivebox1{
+        width: 30%;
+        height: 315px;
+        position: absolute;
+        top: 30px;
+        left: 300px;
+        display: flex;
+        border: 1px solid black;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        .fivebox1text{
+            width: 60%;
+            height: 315px;
+
+            h1{
+                font-weight: 400;
+                font-size: 24px;
+            }
+
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: rgba(0, 0, 0, 0.5);
+            }
+
+            button{
+                width: 100px;
+                height: 25px;
+                border: 1px solid red;
+                border-radius: 5px;
+                background-color: white;
+                margin-left: 20px;
+                a{
+                    text-decoration: none;
+                    color: red;
+                }
+
+                &:hover{
+
+                    a{
+                        border-bottom: 1px solid red;
+                    }
+                }
+            }
+        }
+
+        .fivebox1photo{
+            width: 40%;
+            height: 315px;
+        }
+    }
+
+    .fivebox2{
+        width: 30%;
+        height: 315px;
+        position: absolute;
+        top: 30px;
+        left: 765px;
+        display: flex;
+        border: 1px solid black;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        .fivebox2text{
+            width: 60%;
+            height: 315px;
+
+            h1{
+                font-weight: 400;
+                font-size: 24px;
+            }
+
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: rgba(0, 0, 0, 0.5);
+            }
+
+            button{
+                width: 100px;
+                height: 25px;
+                border: 1px solid red;
+                border-radius: 5px;
+                background-color: white;
+                margin-left: 20px;
+                a{
+                    text-decoration: none;
+                    color: red;
+                }
+
+                &:hover{
+
+                    a{
+                        border-bottom: 1px solid red;
+                    }
+                }
+            }
+        }
+
+        .fivebox2photo{
+            width: 40%;
+            height: 315px;
+        }
+    }
+}

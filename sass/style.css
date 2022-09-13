@@ -1,0 +1,682 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .logo {
+  width: 20%;
+  height: 42px;
+  display: flex;
+  justify-content: flex-end;
+}
+header .left-nav {
+  width: 40%;
+  height: 30px;
+}
+header .left-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header .left-nav ul a {
+  text-decoration: none;
+  color: black;
+}
+header .left-nav ul a:hover {
+  color: red;
+  border-bottom: 1px solid black;
+}
+header .right-nav {
+  width: 12%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .right-nav .nav-btn {
+  width: 122px;
+  height: 30px;
+  background-color: #E02828;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header .right-nav .nav-btn:hover {
+  width: 130px;
+  height: 40px;
+  background-color: #f64f4f;
+}
+header .right-nav .nav-btn:hover a {
+  color: yellow;
+}
+header .right-nav .nav-btn a {
+  text-decoration: none;
+  color: white;
+}
+header .right-nav .fa-solid {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  height: 430px;
+  background-image: url("/img/fasthome background photo.jpg");
+}
+.main .nav-main {
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  top: 135px;
+  left: 410px;
+}
+.main .nav-main .divh1 {
+  width: 385px;
+  height: 112px;
+  position: absolute;
+  left: 200px;
+}
+.main .nav-main h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: rgb(140, 0, 0);
+}
+.main .nav-main input {
+  width: 94%;
+  height: 30px;
+  border: none;
+}
+.main .nav-main input:focus-visible {
+  outline: none;
+}
+.main .nav-main .divsearch {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  top: 150px;
+  left: 190px;
+}
+
+.one {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.one .onebox {
+  width: 60%;
+  height: 318px;
+}
+.one .onebox .onetitle {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.one .onebox .onetitle h1 {
+  font-weight: 700;
+  font-size: 24px;
+  font-style: bold;
+}
+.one .onebox .onetitle p {
+  border: 1px solid black;
+  width: 50px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.one .onebox .onetitle p a {
+  text-decoration: none;
+}
+.one .onebox .box1 {
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.one .onebox .box1 h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.one .onebox .box1 h3 {
+  font-size: 14px;
+}
+.one .onebox .box1 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+}
+.one .onebox .box2 {
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.one .onebox .box2 h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.one .onebox .box2 h3 {
+  font-size: 14px;
+}
+.one .onebox .box2 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+}
+.one .onebox .box3 {
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.one .onebox .box3 h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.one .onebox .box3 h3 {
+  font-size: 14px;
+}
+.one .onebox .box3 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+}
+.one .onebox .box4 {
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.one .onebox .box4 h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.one .onebox .box4 h3 {
+  font-size: 14px;
+}
+.one .onebox .box4 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+}
+
+.two {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two .maintwobox {
+  width: 60%;
+  height: 318px;
+}
+.two .maintwobox .twotitle {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.two .maintwobox .twotitle h1 {
+  font-weight: 700;
+  font-size: 24px;
+  font-style: bold;
+}
+.two .maintwobox .twotitle p {
+  border: 1px solid black;
+  width: 50px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two .maintwobox .twotitle p a {
+  text-decoration: none;
+}
+.two .maintwobox .box1 {
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.two .maintwobox .box1 h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.two .maintwobox .box1 h3 {
+  font-size: 14px;
+}
+.two .maintwobox .box1 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+}
+.two .maintwobox .box2 {
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.two .maintwobox .box2 h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.two .maintwobox .box2 h3 {
+  font-size: 14px;
+}
+.two .maintwobox .box2 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+}
+.two .maintwobox .box3 {
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.two .maintwobox .box3 h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.two .maintwobox .box3 h3 {
+  font-size: 14px;
+}
+.two .maintwobox .box3 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+}
+.two .maintwobox .box4 {
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.two .maintwobox .box4 h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.two .maintwobox .box4 h3 {
+  font-size: 14px;
+}
+.two .maintwobox .box4 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+}
+
+.three {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.three .divsec3 {
+  width: 60%;
+  height: 260px;
+  display: flex;
+  border: 1px solid rgb(187, 177, 177);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.three .divsec3 .sec3text {
+  width: 65%;
+  height: 260px;
+}
+.three .divsec3 .sec3text h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.three .divsec3 .sec3text p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.three .divsec3 .sec3text button {
+  width: 145px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: red;
+  margin-left: 30px;
+}
+.three .divsec3 .sec3text button:hover {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(249, 116, 116);
+  cursor: pointer;
+}
+.three .divsec3 .sec3text button:hover a {
+  color: yellow;
+}
+.three .divsec3 .sec3text button a {
+  text-decoration: none;
+  color: white;
+}
+
+.four {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.four .divsec4 {
+  width: 60%;
+  height: 315px;
+}
+.four .divsec4 .sec4title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.four .divsec4 .sec4title h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.four .divsec4 .sec4title p {
+  border: 1px solid black;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.four .divsec4 .sec4title a {
+  text-decoration: none;
+}
+.four .divsec4 .sec4box {
+  width: 100%;
+  height: 265px;
+  display: flex;
+  border: 1px solid rgb(179, 178, 178);
+  box-shadow: 0 8px 8px -4px;
+}
+.four .divsec4 .sec4text {
+  width: 60%;
+  height: 265px;
+  display: inline-block;
+}
+.four .divsec4 .sec4text h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.four .divsec4 .sec4text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.four .divsec4 .sec4text button {
+  width: 100px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.four .divsec4 .sec4text button a {
+  text-decoration: none;
+  color: red;
+}
+.four .divsec4 .sec4text button:hover a {
+  border-bottom: 1px solid red;
+}
+
+.five {
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+.five .fivebox1 {
+  width: 30%;
+  height: 315px;
+  position: absolute;
+  top: 30px;
+  left: 300px;
+  display: flex;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.five .fivebox1 .fivebox1text {
+  width: 60%;
+  height: 315px;
+}
+.five .fivebox1 .fivebox1text h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.five .fivebox1 .fivebox1text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.five .fivebox1 .fivebox1text button {
+  width: 100px;
+  height: 25px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 20px;
+}
+.five .fivebox1 .fivebox1text button a {
+  text-decoration: none;
+  color: red;
+}
+.five .fivebox1 .fivebox1text button:hover a {
+  border-bottom: 1px solid red;
+}
+.five .fivebox1 .fivebox1photo {
+  width: 40%;
+  height: 315px;
+}
+.five .fivebox2 {
+  width: 30%;
+  height: 315px;
+  position: absolute;
+  top: 30px;
+  left: 765px;
+  display: flex;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.five .fivebox2 .fivebox2text {
+  width: 60%;
+  height: 315px;
+}
+.five .fivebox2 .fivebox2text h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.five .fivebox2 .fivebox2text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.five .fivebox2 .fivebox2text button {
+  width: 100px;
+  height: 25px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 20px;
+}
+.five .fivebox2 .fivebox2text button a {
+  text-decoration: none;
+  color: red;
+}
+.five .fivebox2 .fivebox2text button:hover a {
+  border-bottom: 1px solid red;
+}
+.five .fivebox2 .fivebox2photo {
+  width: 40%;
+  height: 315px;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #2D363C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .nav {
+  width: 80%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .nav .nav1 {
+  width: 20%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+footer .nav .nav1 .nav-opt {
+  width: 60%;
+  height: 250px;
+}
+footer .nav .nav1 .nav-opt h1 a {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+footer .nav .nav1 .nav-opt p a {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .nav .nav1 .nav-opt p a:hover {
+  margin-left: 10px;
+}
+footer .nav .nav1 .nav-opt a {
+  text-decoration: none;
+}
+footer .nav .nav2 {
+  width: 20%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+footer .nav .nav2 .nav2-opt {
+  width: 60%;
+  height: 250px;
+}
+footer .nav .nav2 .nav2-opt h1 a {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+footer .nav .nav2 .nav2-opt p a {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .nav .nav2 .nav2-opt p a:hover {
+  margin-left: 10px;
+}
+footer .nav .nav2 .nav2-opt a {
+  text-decoration: none;
+}
+footer .nav .nav3 {
+  width: 20%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+footer .nav .nav3 .nav3-opt {
+  width: 95%;
+  height: 200px;
+}
+footer .nav .nav3 .nav3-opt h1 a {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+footer .nav .nav3 .nav3-opt p a {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .nav .nav3 .nav3-opt p a:hover {
+  margin-left: 10px;
+}
+footer .nav .nav3 .nav3-opt a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

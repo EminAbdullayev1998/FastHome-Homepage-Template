@@ -1,2 +1,2 @@
 # FastHome-Homepage-Template
-This repo is FastHome HomePage Template
+## This repo is FastHome HomePage Template
